@@ -1,0 +1,2 @@
+source D:/ESP/esp-idf-http-camera/build/bootloader/gdbinit/symbols
+source D:/ESP/esp-idf-http-camera/build/bootloader/gdbinit/connect

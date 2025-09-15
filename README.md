@@ -13,12 +13,19 @@ From the left:
 - Freenove ESP32-WROVER CAM   
 - UICPAL ESPS3 CAM   
 - Freenove ESP32S3-WROVER CAM (Clone)   
+- ESP32S3-ETH-WEBCAM WAVESHARE (added)
 
 ![es32-camera](https://github.com/nopnop2002/esp-idf-websocket-camera/assets/6020549/38dbef9a-ed85-4df2-8d22-499b2b497278)
 
 ## Software requirements
 ESP-IDF V5.0 or later.   
 ESP-IDF V4.4 release branch reached EOL in July 2024.   
+
+
+# SDK Config
+- Check ESP PSRAM (checked)
+- Select "Octal Mode PSRAM"
+
 
 # Start HTTP Server
 You can use a server using flask or a simple server.   

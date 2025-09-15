@@ -124,3 +124,24 @@
 #define CAM_PIN_HREF  12
 #define CAM_PIN_PCLK   7
 #endif
+
+// WaveShare ESP32S3-ETH WebCAM Board PIN Map
+#if CONFIG_BOARD_ESP32S3_ETH_WAVESHARE
+#define CAM_PIN_PWDN  8 //power down is not used
+#define CAM_PIN_RESET -1 //software reset will be performed
+#define CAM_PIN_XCLK   3
+#define CAM_PIN_SIOD   48
+#define CAM_PIN_SIOC   47
+
+#define CAM_PIN_D7    18 // Y9
+#define CAM_PIN_D6    15 // Y8
+#define CAM_PIN_D5    38 // Y7
+#define CAM_PIN_D4    40 // Y6
+#define CAM_PIN_D3    42 // Y5
+#define CAM_PIN_D2    46 // Y4
+#define CAM_PIN_D1    45 // Y3
+#define CAM_PIN_D0    41 // Y2
+#define CAM_PIN_VSYNC  1
+#define CAM_PIN_HREF   2
+#define CAM_PIN_PCLK  39
+#endif

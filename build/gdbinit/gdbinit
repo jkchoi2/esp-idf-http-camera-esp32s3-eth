@@ -1,0 +1,2 @@
+source D:/ESP/esp-idf-http-camera/build/gdbinit/symbols
+source D:/ESP/esp-idf-http-camera/build/gdbinit/connect
